@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>BIQI ORGINAL</title>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <a href="index.html"><img style="height: 4em; width: 5em; padding-right: 20px; padding-top: 4px;"
+                  src="./img/LOGO_BIQI_MAIN.png" alt="LOGO"></a>
+            <li><a href="index.html">Bi&Qi</a></li>
+            <div class="dropdown">
+               <li><a href="men.html">MEN</a></li>
+               <div class="dropdown-content">
+                  <a href="#">Hoodies</a>
+                  <a href="#">Sweatshirt</a>
+                  <a href="#">T-shirt</a>
+                  <a href="#">Jeans</a>
+               </div>
+            </div>
+            <div class="dropdown">
+               <li><a href="women.html">WOMEN</a></li>
+               <div class="dropdown-content">
+                  <a href="#">Hoodies</a>
+                  <a href="#">Sweatshirt</a>
+                  <a href="#">Skirt</a>
+               </div>
+            </div>
+            <li><a href="sale.html">SALE</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="viewcart.html">
+                  <i style="font-size: 12px" class="fa">&#xf290;</i>
+               </a></li>
+            <li><a href="login.html">
+                  <i style="font-size: 15px" class="fa">&#xf090;</i>
+               </a></li>
+         </ul>
+      </nav>
+   </header>
+   <main id="mainContainer">
+      <table>
+         <div>
+            <tr>
+               <th>Product</th>
+               <th style="width: 35%;">Detail</th>
+               <th>Price</th>
+               <th>Quantity</th>
+               <th></th>
+            </tr>
+         </div>
+         <tbody id="gioHang">
+            <tr>
+               <td>
+                  <img src="./img/BiQi Clothing/For man/1.jpg" style="width: 35%; height: 170px; margin-top: 20px;">
+               </td>
+               <td style="width: 20px; text-align: left; padding-left: 130px;">
+                  <p>Name: BIQUI Hoodies Black Basic (Male)</p>
+                  <p>Code: Code: HD2021001</p>
+                  <p>Color: Black</p>
+                  <p>Size: L </p>
+               </td>
+               <td>$<span>20</span>.00</td>
+               <td id="1">
+                  <input style="width: 50px;" type="number" class="form-control" min="1" value="1">
+               </td>
+               <td>
+                  <button style="background-color: black; color: white; border: solid black; border-radius: 10px;"
+                     onclick="removeProduct(this)">x</button>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <img src="./img/BiQi Clothing/For woman/5.jpg" style="width: 35%; height: 180px; margin-top: 20px;">
+               </td>
+               <td style="width: 20px; text-align: left; padding-left: 130px;">
+                  <p>Name: BIQUI Hoodies White Basic (Female)</p>
+                  <p>Code: Code: HD2021002</p>
+                  <p>Color: White</p>
+                  <p>Size: S </p>
+               </td>
+               <td>$<span>30</span>.00</td>
+               <td id="2">
+                  <input style="width: 50px;" type="number" class="form-control" min="1" value="1">
+               </td>
+               <td>
+                  <button style="background-color: black; color: white; border: solid black; border-radius: 10px;"
+                     onclick="removeProduct(this)">x</button>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+
+      <div
+         style="text-align: center; background-color: black; border-radius: 20px; color: white; margin-left: 80%; border: 1px solid black; margin-bottom: 20px; width: 20%;">
+         <h4>Estimated Tax: $<span>0</span></h4>
+         <h4>Order Total: $<span id="totalprice">0</span>.00</h4>
+      </div>
+      
+      <script src="./js/scripts.js"></script>
+   </main>
+   <footer style="display: flex; flex-direction: column; font-family: Arial, Helvetica, sans-serif">
+      <div style="font-size: 12px; text-align: center; padding-top: 20px;">
+         <img style="width: 5%; height: 12%;" src="./img/LOGO_BIQI_MAIN.png">
+         <p>27 Cach Mang Thang Tam Street,
+            Tan Binh District, Ho Chi Minh City</p>
+         <p>Phone contact:
+            <a style="color: white;" class="mobile" href="tel:8145556789">(+84) 909-8888</a>
+         </p>
+
+         <p>Email Address:
+            <a style="color: white;" href="mailto:vusfitness@club.com">biqioriginal@gmail.com</a>
+         </p>
+      </div>
+      <div style="font-size: 15px; text-align: center;">
+
+         <p>For more information regarding your privacy Rights please acces our <a style="color: white;"
+               href="privacy.html">Privacy Policy.</a></p>
+         <p>@2020 All Rights Reversed – Re-design by VUS School</p>
+      </div>
+
+      <div>
+         <i style="font-size:24px; padding-right: 20px; padding-left: 20px;" class="fa">&#xf16a;</i>
+         <i style="font-size:24px; padding-right: 20px;" class="fa">&#xf16d;</i>
+         <i style="font-size:24px" class="fa">&#xf09a;</i>
+      </div>
+   </footer>
+</body>
+
+</html>
