@@ -26,30 +26,3 @@ function removeProduct(x) {
     element.remove();
     carttotal();
  }
-
- // function inputChange() {
- //    var cartItem = document.querySelectorAll("#gioHang");
- //    for (var i = 0; i < cartItem.length; i++) {
- //       var inputvalue = cartItem[i].querySelector("input");
- //       inputvalue.addEventListener("change", function () {
- //          carttotal();
- //       })
- //    }
- // }
-
- // function carttotal() {
- //    var cartItem = document.querySelectorAll("#gioHang");
- //    var totalAllP = 0;
- //    for (var i = 0; i < cartItem.length; i++) {
- //       var inputvalue = cartItem[i].querySelector("input").value;
- //       var productPrice = cartItem[i].querySelector("span").innerHTML;
- //       totalA = (inputvalue * productPrice);
- //       totalAllP = totalAllP + totalA;
- //    }
- //    document.getElementById("totalprice").innerHTML = totalAllP;
- //    inputChange();
- // }
- // carttotal();
-
-
-
